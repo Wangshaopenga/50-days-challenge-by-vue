@@ -36,6 +36,11 @@ const routes = [
         component: () => import("@/views/Day5.vue"),
     },
     {
+        path: "/day6",
+        name: "day6",
+        component: () => import("@/views/Day6.vue"),
+    },
+    {
         path: "/day7",
         name: "day7",
         component: () => import("@/views/Day7.vue"),
