@@ -65,6 +65,11 @@ const routes = [
         name: "day11",
         component: () => import("@/views/Day11.vue"),
     },
+    {
+        path: "/day13",
+        name: "day13",
+        component: () => import("@/views/Day13.vue"),
+    },
 ];
 
 const router = createRouter({
