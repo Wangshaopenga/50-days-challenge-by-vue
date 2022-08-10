@@ -53,8 +53,8 @@ let is = $ref(false);
 			left: -3px;
 			background-color: initial;
 			.line {
-				width: 30px;
-				height: 3px;
+				width: 20px;
+				height: 2px;
 				background-color: #5290f9;
 				position: absolute;
 				top: 10px;
@@ -90,10 +90,12 @@ let is = $ref(false);
 		button {
 			padding: 15px;
 			.line2 {
-				transform: rotate(-855deg) translateY(5px);
+				transform: rotate(-495deg) translateY(5.5px);
+				transform-origin: center;
 			}
 			.line1 {
-				transform: rotate(855deg) translateY(-5px);
+				transform-origin: center;
+				transform: rotate(495deg) translateY(-5.5px);
 			}
 		}
 		ul {
