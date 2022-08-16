@@ -84,6 +84,7 @@ axios.get(API_URL).then(res => {
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    
     .card {
       width: 300px;
       margin: 1rem;
